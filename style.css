@@ -14,7 +14,7 @@ h1,h2{
 	margin-bottom: 25px;
 }
 header{
-	background-image: url(images/bg-hero-desktop.svg);
+	background-image: url(bg-hero-desktop.svg);
 	background-color: rgb(237,2151,254);
 	min-height: 620px;
 }
@@ -187,7 +187,7 @@ footer p{
 		padding-bottom: 70px;
 	}
 	header{
-		background-image: url(images/bg-hero-mobile.svg);
+		background-image: url(bg-hero-mobile.svg);
 	}
 	p br{
 		display: none;
