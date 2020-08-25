@@ -1,0 +1,223 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: hsl(192, 100%, 9%);
+	font-family: 'Open Sans',sans-serif;
+}
+h1,h2{
+	font-family: 'Poppins',sans-serif;
+	margin-top: 0;
+	color: hsl(192, 100%, 9%);
+}
+.attribution{
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+header{
+	background-image: url(images/bg-hero-desktop.svg);
+	background-color: rgb(237,2151,254);
+	min-height: 620px;
+}
+header #logo1{
+	width: 170px;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+#button1{
+	background-color: #fff;
+	text-align: center;
+	width: 170px;
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	color: hsl(192, 100%, 9%);
+	font-weight: bold;
+	box-shadow: 1px 3px hsla(0, 0%, 0%, 0.48);
+	font-size: 15px;
+	float: right;
+	letter-spacing: 1px;
+}
+#block-1 p{
+	line-height: 1.6em;
+	font-weight: 550;
+	font-size: 18px;
+}
+nav{
+	margin-bottom: 70px;
+}
+#block-1{
+	float: left;
+	width: 46%;
+	color: hsl(192, 100%, 9%);
+	box-sizing: border-box;
+}
+#block-1 h1{
+	font-weight: bolder;
+	font-size: 2em;
+}
+.pink{
+	background-color: hsl(322, 100%, 66%);
+	border: none;
+	border-radius: 25px;
+	outline: none;
+	width: 50%;
+	height: 55px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Open Sans',sans-serif;
+}
+.pink:nth-of-type(1){
+	margin-top: 10px;
+}
+#block-2 img{
+	width: 48%;
+	float: right;
+}
+main{
+	background-color: #fff;
+	padding-top: 120px;
+	padding-bottom: 150px;
+}
+.box{
+	box-shadow: 3px 3px 3px 3px hsla(0, 0%, 0%, 0.48);
+	border-radius: 15px;
+	margin: auto;
+	padding: 90px;
+	min-height: 380px;
+	margin-bottom: 100px;
+	color: hsl(192, 100%, 9%);
+}
+.box img{
+	width: 40%;
+	float: right;
+	margin-left: 60px;
+	padding-top: 50px;
+}
+.box p{
+	color: hsl(208, 11%, 55%);
+}
+.info{
+	float: left;
+	width: 50%;
+	padding-top: 50px;
+}
+#reverse{
+	float: right;
+	width: 50%;
+}
+#on-top{
+	background-color: #fff;
+	width: 45%;
+	min-height: 180px;
+	text-align: center;
+	border-radius: 15px;
+	position: absolute;
+	padding: 20px;
+	box-shadow: 3px 3px 3px 3px hsla(0, 0%, 0%, 0.48);
+	padding-top: 40px;
+	right: 25%;
+	top: 2750px;
+}
+footer{
+	color: #fff;
+	padding-top: 180px;
+	position: relative;
+	font-size: 18px;
+	line-height: 1.6em;
+}
+#logo{
+	display: block;
+	padding: 20px;
+	padding-left: 0;
+}
+footer li{
+	list-style-type: none;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+footer ul{
+	width: 20%;
+	float: left;
+	margin-top: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	display: inline;
+	padding-left:30px;
+	color: #fff;
+}
+footer li{
+	padding-left: 0;
+}
+footer #social li{
+	display: inline;
+	padding-right: 15px;
+	font-size: 30px;
+}
+footer #contact{
+	width: 35%;
+	padding-left: 30px;
+}
+.categories{
+	margin-top: -220px;
+	margin-bottom: 250px;
+}
+.fas{
+		margin-right: 5px;
+	}
+footer p{
+	float: right;
+}
+@media(max-width: 900px){
+	#block-1,#block-2,#block-2 img,.info,#reverse,.box img,.categories,#social, footer #contact,#company,#information,footer section li{
+		float: none;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+	}
+	.categories,footer #contact,#company,#information{
+		text-align: left;
+	}
+	#block-2 img{
+		margin-top: 70px;
+		padding-bottom: 70px;
+	}
+	header{
+		background-image: url(images/bg-hero-mobile.svg);
+	}
+	p br{
+		display: none;
+	}
+	main{
+		padding-bottom: 50px;
+	}
+	#button1{
+		width: 30%;
+	}
+	.pink{
+		width: 80%;
+	}
+	.box{
+		padding: 50px;
+	}
+	#on-top{
+		display: none;
+	}
+	footer{
+		padding-top: 50px;
+	}
+	footer p{
+		text-align: center;
+	}
+	#logo{
+		margin-bottom:-250px;
+	}
+	ul#social{
+		padding-left: 0;
+	}
+}
+
